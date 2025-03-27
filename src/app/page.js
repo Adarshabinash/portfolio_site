@@ -9,9 +9,9 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp" }}
       >
         <div className="pl-20 md:pl-40 pb-55 md:pb-20 flex flex-col gap-5 z-[10]  max-w-[750px] ">
-          <h1 className="text-[50px] text-white font-semibold mt-[10%]">
+          <h1 className="text-[50px] text-white font-semibold mt-[18%]">
             Make anything possible with{" "}
-            <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent text-[45px] font-bold">
+            <span className="bg-gradient-to-r from-purple-600 via-blue-400 to-green-300 bg-clip-text text-transparent text-[45px] font-bold">
               Web Development
             </span>
           </h1>
@@ -27,23 +27,23 @@ export default function Home() {
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
-              className="relative rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative  bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               Learn More
             </Link>
 
             <Link
-              href="/my-skills"
-              className="relative rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              href="/my-projects"
+              className="rounded-[20px] group relative bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               My Projects
             </Link>
 
             <Link
-              href="/my-skills"
-              className="relative rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              href="/contact-me"
+              className="rounded-[20px] group relative bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               Contact me
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute bottom-10 z-[20] right-5 flex-col md:hidden ">
+      <div className="absolute flex gap-5 bottom-10 z-[20] right-5 flex-col md:hidden ">
         <Link
           href="/my-skills"
           className="rounded-[20px] group bg-blue-600 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200] "
@@ -97,8 +97,8 @@ export default function Home() {
       <Image
         src="/stars.png"
         alt="stars"
-        width={100}
-        height={100}
+        width={800}
+        height={800}
         className="absolute top-10 left-0 z-[10] "
       />
     </main>
