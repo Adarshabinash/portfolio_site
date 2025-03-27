@@ -4,7 +4,7 @@ import { Socials } from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 z-[40px] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20">
+    <div className="fixed top-0 z-[100] w-full h-[100px] bg-transparent-white flex justify-between items-center  md:px-10">
       <div className="flex flex-row gap-3 items-center">
         <div className="relative">
           <Image
