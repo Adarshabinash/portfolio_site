@@ -24,25 +24,28 @@ export default function Home() {
             Feel free to explore my work, and I hope you find it insightful.
             Let’s connect and create something amazing! 🚀
           </p>
-          <div className="flex-col md:flex-row hidden md:flex gap-5 ">
+          <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
-              className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200] "
+              className="relative rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               Learn More
             </Link>
+
             <Link
               href="/my-skills"
-              className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200] "
+              className="relative rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 " />
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               My Projects
             </Link>
+
             <Link
               href="/my-skills"
-              className="rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200] "
+              className="relative rounded-[20px] group bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20 " />
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               Contact me
             </Link>
           </div>
