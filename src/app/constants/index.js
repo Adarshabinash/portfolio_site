@@ -78,7 +78,7 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
+    name: "Github",
     src: "/gitwhite.png",
   },
   {
