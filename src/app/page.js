@@ -6,7 +6,7 @@ export default function Home() {
     <main className="w-screen h-screen relative">
       <div
         className="flex items-cener w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url(/bg-3.jpg" }}
+        style={{ backgroundImage: "url(/main-bg.webp" }}
       >
         <div className="pl-20 md:pl-40 pb-55 md:pb-20 flex flex-col gap-5 z-[10]  max-w-[750px] ">
           <h1 className="text-[50px] text-white font-semibold mt-[20%]">
@@ -16,8 +16,8 @@ export default function Home() {
             </span>
           </h1>
 
-          <p className="text-white hidden md:block ">
-            I am an aspiring web developer. Welcome to my portfolio! Here,
+          <p className="hidden md:block bg-gradient-to-r from-purple-300 via-white to-blue-300 bg-clip-text text-transparent font-semibold ">
+            I am an aspiring software developer. Welcome to my portfolio! Here,
             you'll find a showcase of my skills, projects, and passion for web
             development. I've leveraged my knowledge of modern technologies to
             craft intuitive and dynamic digital experiences. Feel free to
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
-              className="rounded-[20px] group relative  bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative  bg-blue-500 hover:bg-red-500 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               Learn More
@@ -35,7 +35,7 @@ export default function Home() {
 
             <Link
               href="/my-projects"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               My Projects
@@ -43,7 +43,7 @@ export default function Home() {
 
             <Link
               href="/contact-me"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-red-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
               Contact me
