@@ -51,14 +51,14 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Framer Motion",
-    Image: "/framer.png",
+    name: "Express",
+    Image: "/express.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
+    name: "Github",
+    Image: "/gitwhite.png",
     width: 80,
     height: 80,
   },
@@ -73,6 +73,12 @@ export const SkillData = [
     Image: "/mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    name: "Material UI",
+    Image: "/mui.png",
+    width: 80,
+    height: 80,
   },
 ];
 
