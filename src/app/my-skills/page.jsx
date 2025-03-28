@@ -15,15 +15,15 @@ const Page = () => {
     >
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-semibold text-white text-[50px]">
+          <h1 className="bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 bg-clip-text text-transparent font-semibold text-[50px]">
             Skills
-            <span className="bg-gradient-to-r from-purple-600 via-blue-400 to-green-300 bg-clip-text text-transparent text-[45px] font-bold">
+            <span className="bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 bg-clip-text text-transparent font-semibold text-[45px] font-bold">
               {" "}
               &{" "}
             </span>{" "}
             Technologies
           </h1>
-          <p className="text-gray-400 text-lg">
+          <p className="bg-gradient-to-r from-blue-300 via-grey-500 to-purple-400 bg-clip-text text-transparent text-lg">
             Using the latest tech this world has to offer.
           </p>
         </div>
