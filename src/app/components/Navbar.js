@@ -4,7 +4,7 @@ import { Socials } from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 z-[100] w-full h-[100px] bg-transparent-white flex justify-between items-center  md:px-10">
+    <div className="fixed top-0 z-[100] w-full h-[70px] bg-white/5 backdrop-blur-sm  flex justify-between items-center md:px-10">
       <div className="flex flex-row gap-3 items-center">
         <div className="relative">
           <Image
@@ -15,7 +15,10 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           />
         </div>
-        <h1 className="text-white text-2xl font-semibold">
+        <h1
+          className="bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text
+        text-transparent text-[25px] font-bold"
+        >
           Adarsh Kumar Mishra
         </h1>
       </div>

@@ -6,23 +6,23 @@ export default function Home() {
     <main className="w-screen h-screen relative">
       <div
         className="flex items-cener w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url(/main-bg.webp" }}
+        style={{ backgroundImage: "url(/bg-3.jpg" }}
       >
         <div className="pl-20 md:pl-40 pb-55 md:pb-20 flex flex-col gap-5 z-[10]  max-w-[750px] ">
-          <h1 className="text-[50px] text-white font-semibold mt-[18%]">
-            Make anything possible with{" "}
+          <h1 className="text-[50px] text-white font-semibold mt-[20%]">
+            Hi, I am{" "}
             <span className="bg-gradient-to-r from-purple-600 via-blue-400 to-green-300 bg-clip-text text-transparent text-[45px] font-bold">
-              Web Development
+              Adarsh
             </span>
           </h1>
 
           <p className="text-white hidden md:block ">
-            Hi, I'm <b>Adarsh</b>, an aspiring web developer. Welcome to my
-            portfolio! Here, you'll find a showcase of my skills, projects, and
-            passion for web development. I've leveraged my knowledge of modern
-            technologies to craft intuitive and dynamic digital experiences.
-            Feel free to explore my work, and I hope you find it insightful.
-            Let’s connect and create something amazing! 🚀
+            I am an aspiring web developer. Welcome to my portfolio! Here,
+            you'll find a showcase of my skills, projects, and passion for web
+            development. I've leveraged my knowledge of modern technologies to
+            craft intuitive and dynamic digital experiences. Feel free to
+            explore my work, and I hope you find it insightful. Let’s connect
+            and create something amazing! 🚀
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
