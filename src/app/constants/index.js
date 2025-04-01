@@ -86,14 +86,17 @@ export const Socials = [
   {
     name: "Github",
     src: "/gitwhite.png",
+    pathname: "https://github.com/Adarshabinash",
   },
   {
     name: "Linkedin",
     src: "/linkedin.png",
+    pathname: "https://www.linkedin.com/in/mishra-kumar-adarsh/",
   },
   {
     name: "Instagram",
     src: "/instagram.svg",
+    pathname: "https://www.linkedin.com/in/mishra-kumar-adarsh/",
   },
 ];
 export const Projects = [
