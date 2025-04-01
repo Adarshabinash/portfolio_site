@@ -98,24 +98,24 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
+    title: "Weather App",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "/weatherapp.jpg",
   },
   {
-    title: "Space Themed Website",
+    title: "Chatbot App",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/chatbot.jpg",
   },
   {
-    title: "Modern Nextjs Portfolio",
+    title: "Unsplash Clone",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    src: "/unsplash_clone.jpg",
   },
   {
-    title: "Matrix themed Website",
+    title: "Games Application",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "/games.jpg",
   },
 ];
 

@@ -17,7 +17,7 @@ const ProjectCard = ({ image, title, text }) => {
   return (
     <div
       onChange={handleFlip}
-      className="w-[450px] h-[200px] rounded-md cursor-pointer "
+      className="w-[270px] h-[180px] gap-[30px] rounded-md cursor-pointer flex flex-wrap gap-4 "
     >
       <motion.div
         className="flip-card-inner w-full h-full"
@@ -36,7 +36,7 @@ const ProjectCard = ({ image, title, text }) => {
           </div>
         </div>
         <div
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(/${image})` }}
           className="w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4"
         >
           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1] " />

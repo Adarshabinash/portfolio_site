@@ -31,7 +31,7 @@ const Navigation = () => {
   return (
     <div
       style={{ left: "20%" }}
-      className="absolute z-[50] bottom-[-45px] w-[30%] md:w-[20%] max-h-[100px] rounded-full flex justify-between items-center border border-pink-500 bg-black px-4 py-7 "
+      className="absolute z-[50] bottom-[-45px] w-[30%] md:w-[20%] max-h-[100px] rounded-full flex justify-between items-center border border-white bg-black px-4 py-7 "
     >
       {isRouting && <Transition />}
 
