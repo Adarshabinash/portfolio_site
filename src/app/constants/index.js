@@ -102,7 +102,7 @@ export const Socials = [
 export const Projects = [
   {
     title: "Weather App",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "A simple and light weight react application, showing weather reports for searched places with the help of the Accuweather API.",
     src: "/weatherapp.jpg",
   },
   {
