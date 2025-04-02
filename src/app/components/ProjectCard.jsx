@@ -36,7 +36,7 @@ const ProjectCard = ({ image, title, text }) => {
             Learn More &gt;
           </div>
         </div>
-        <div className="w-full h-full bg-gradient-to-r from-purple-500 via-blue-400 to-red-500 group relative flip-card-back bg-transparent bg-cover bg-center text-white rounded-lg p-4">
+        <div className="w-full h-full bg-gradient-to-r from-purple-900 to-black group relative flip-card-back bg-transparent bg-cover bg-center text-white rounded-lg p-4">
           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]" />
           <div className="flex flex-col gap-3 py-3 z-[30]">
             <h1 className="text-white text-2xl font-semibold">{title}</h1>

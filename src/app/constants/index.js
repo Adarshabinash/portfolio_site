@@ -112,12 +112,12 @@ export const Projects = [
   },
   {
     title: "Unsplash Clone",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "A clone of the popular image website Unsplash using its developer API to make a lightweight clone of it. ",
     src: "/unsplash_clone.jpg",
   },
   {
     title: "Games Application",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "A react-native application having exciting single player games with engaing user interface.",
     src: "/games.jpg",
   },
 ];
