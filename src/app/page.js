@@ -18,11 +18,10 @@ export default function Home() {
 
           <p className="hidden md:block bg-gradient-to-r from-purple-300 via-white to-blue-300 bg-clip-text text-transparent font-semibold ">
             I am an aspiring software developer. Welcome to my portfolio! Here,
-            you'll find a showcase of my skills, projects, and passion for web
+            you will find a showcase of my skills, projects, and passion for web
             development. I've leveraged my knowledge of modern technologies to
             craft intuitive and dynamic digital experiences. Feel free to
-            explore my work, and I hope you find it insightful. Let’s connect
-            and create something amazing! 🚀
+            explore my work, and I hope you find it insightful ! 🚀
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
