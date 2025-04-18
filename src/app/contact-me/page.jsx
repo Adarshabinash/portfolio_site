@@ -11,7 +11,7 @@ const Page = () => {
         style={{ backgroundImage: "url(atombg-comp.webp)" }}
         className="h-[60%] w-[80%] relative bg-cover bg-center rounded-xl border border-white "
       >
-        <div className="absolute lg:left-20  bottom-16 w-[70%] md:w-[30%] ">
+        <div className="absolute bottom-16 w-[90%] mx-auto left-0 right-0 sm:mx-0 sm:ml-8 md:ml-16 lg:left-20 sm:w-[70%] md:w-[40%] lg:w-[30%]">
           <ContactForm />
         </div>
       </div>
